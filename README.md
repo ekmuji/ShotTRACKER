@@ -8,7 +8,7 @@ An iPhone application that uses the device camera and computer vision to automat
 
 The app will calculate shooting percentage in real time and store workout history for later analysis.
 
----
+
 
 # Step 1: Define the Project
 
@@ -24,7 +24,6 @@ A native iOS application that:
 
 The goal is to provide players with automatic shooting analytics without requiring manual scorekeeping.
 
----
 
 ## MVP (Minimum Viable Product)
 
@@ -50,7 +49,7 @@ The MVP is successful when:
 * Shooting percentage updates in real time.
 * User can save and review workout sessions.
 
----
+
 
 ## Nice-to-Have Features
 
@@ -81,7 +80,7 @@ The MVP is successful when:
 * Dark mode customization
 * Export workout data
 
----
+
 
 ## Definition of Complete
 
@@ -92,8 +91,6 @@ Version 1.0 is complete when:
 * Workout data is saved and retrievable.
 * App functions on iOS 17 and newer devices.
 * Beta testing has been completed through TestFlight.
-
----
 
 # Step 2: Create the Workflow
 
@@ -138,7 +135,7 @@ Version 1.0 is complete when:
 * Final bug fixes
 * App Store submission
 
----
+
 
 # Step 3: Break Project into Components
 
@@ -198,7 +195,7 @@ Version 1.0 is complete when:
 * App Store assets
 * App Store submission
 
----
+
 
 # Step 3a: Break Components into Checklists
 
@@ -212,7 +209,6 @@ Version 1.0 is complete when:
 * [ ] Define coding standards
 * [ ] Create development roadmap
 
----
 
 ## Component 2: Computer Vision
 
@@ -242,7 +238,7 @@ Version 1.0 is complete when:
 * [ ] Draw bounding boxes
 * [ ] Verify accuracy
 
----
+
 
 ## Component 3: Shot Tracking Engine
 
@@ -270,7 +266,7 @@ Version 1.0 is complete when:
 * [ ] Count shots made
 * [ ] Calculate percentage
 
----
+
 
 ## Component 4: Camera System
 
@@ -286,7 +282,7 @@ Version 1.0 is complete when:
 * [ ] Pass frames to Vision
 * [ ] Handle processing queue
 
----
+
 
 ## Component 5: User Interface
 
@@ -309,7 +305,7 @@ Version 1.0 is complete when:
 * [ ] Historical performance
 * [ ] Charts
 
----
+
 
 ## Component 6: Data Storage
 
@@ -325,7 +321,7 @@ Version 1.0 is complete when:
 * [ ] User authentication
 * [ ] Data synchronization
 
----
+
 
 ## Component 7: Testing
 
@@ -348,7 +344,7 @@ Version 1.0 is complete when:
 * [ ] Outdoor court
 * [ ] Different lighting conditions
 
----
+
 
 ## Component 8: Deployment
 
@@ -365,7 +361,6 @@ Version 1.0 is complete when:
 * [ ] Privacy policy
 * [ ] Submit for review
 
----
 
 # Recommended Technology Stack
 
@@ -394,7 +389,7 @@ Version 1.0 is complete when:
 * GitHub
 * TestFlight
 
----
+
 
 # Initial Release Goal
 
