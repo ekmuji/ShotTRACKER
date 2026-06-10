@@ -49,7 +49,9 @@ The MVP is successful when:
 * Shooting percentage updates in real time.
 * User can save and review workout sessions.
 
-
+# UI Wireframes
+Below aare the wireframes visualising the three core screens of the MVP:
+![alt text](wireframe.png)
 
 ## Nice-to-Have Features
 
