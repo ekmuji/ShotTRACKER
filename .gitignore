@@ -1,0 +1,69 @@
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Xcode & iOS Development
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.profile
+*.xcuserstate
+project.xcworkspace/
+!project.xcworkspace/xcshareddata/
+!project.xcworkspace/contents.xcworkspacedata
+xcshareddata/workspacechecks.plist
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+
+# CocoaPods (If you end up using them)
+Pods/
+# Note: Podfile.lock should be committed
+
+# =========================
+# Python & Computer Vision PoC
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# =========================
+# Machine Learning Datasets & Weights
+# =========================
+# Ignore large dataset folders and raw image files
+/datasets/
+*.mp4
+*.mov
+*.jpg
+*.jpeg
+*.png
+
+# Ignore raw YOLO weights (keep exported Core ML models if small enough)
+*.pt
+*.weights
