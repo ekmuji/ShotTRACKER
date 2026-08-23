@@ -3,6 +3,10 @@
 app/build/
 app/build/
 
+# Root build folders
+/build/
+/.kotlin/
+
 # Local configuration file (contains your specific Android SDK path)
 local.properties
 
