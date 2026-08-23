@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ShotTrackr</string>
+    <string name="makes_format">%1$d/%2$d</string>
+    <string name="duration_format">%1$dm %2$ds</string>
+    <string name="streak_format">🔥 Streak: %1$d</string>
+
+    <!-- Dashboard Labels -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="label_shooting_pct">SHOOTING %</string>
+    <string name="label_best_streak">BEST STREAK</string>
+    <string name="label_total_sessions">TOTAL SESSIONS</string>
+    <string name="label_total_makes">TOTAL MAKES</string>
+
+    <!-- Dashboard Sections -->
+    <string name="progression_trend">Progression Trend</string>
+    <string name="recent_workouts">Recent Workouts</string>
+    <string name="no_workouts_yet">No workouts yet.\nStart shooting to see history!</string>
+    <string name="load_video">Load Video</string>
+    <string name="reset_session">Reset Session</string>
+</resources>

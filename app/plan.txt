@@ -1,0 +1,38 @@
+Implementation Plan
+
+Now that your architectural skeleton (C++ engine, Kotlin wrappers, DI, and DB) is mapped out, here is the exact roadmap to bring the app to life.
+
+Phase 1: The UI Layouts (XML)
+Your fragments need visual representations. We need to create the XML files that define where the buttons, text, and camera preview go on the screen.
+
+    Create fragment_workout.xml (Camera preview, translucent HUD overlay).
+
+    Create fragment_statistics.xml (Text fields for stats, canvas area for the chart).
+
+    Create fragment_history.xml (RecyclerView for the list).
+
+    Create item_session.xml (The design for a single row in the history list).
+
+Phase 2: Machine Learning Integration (TensorFlow Lite)
+We need to fill in the // TODO blocks inside BallDetector.kt and HoopDetector.kt.
+
+    Add the TensorFlow Lite dependencies to build.gradle.kts.
+
+    Place your Roboflow YOLOv8 .tflite models into the app/src/main/assets/ folder.
+
+    Write the image preprocessing logic (converting CameraX Bitmaps into byte arrays that the TFLite models can read).
+
+Phase 3: Camera & View Wiring
+We need to connect the UI to the backend logic.
+
+    Update WorkoutFragment.kt to request Camera permissions.
+
+    Connect the PreviewView from the XML to CameraService.kt.
+
+    Observe the WorkoutViewModel.kt LiveData to update the HUD text (Makes, Misses, % text) in real-time as the C++ engine processes frames.
+
+Phase 4: C++ Engine Compilation & Testing
+
+    Ensure the Android NDK successfully compiles your TrackerEngine.cpp into the .so library.
+
+    Run the app on a physical device, point it at a hoop, and monitor the logs to ensure the ML pipeline is correctly passing bounding boxes down to the C++ Kalman filters.
