@@ -1,0 +1,42 @@
+# Gradle files
+.gradle/
+app/build/
+app/build/
+
+# Local configuration file (contains your specific Android SDK path)
+local.properties
+
+# IntelliJ/Android Studio workspace files
+.idea/
+*.iml
+*.iws
+
+# Android native build cache (CMake/NDK)
+.cxx/
+
+# Compiled Android binaries
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Log Files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Keystore files (Never commit passwords/keys to GitHub!)
+*.jks
+*.keystore
+
+# OpenCV Android SDK binaries
+**/opencv/
+**/opencv-sdk/
